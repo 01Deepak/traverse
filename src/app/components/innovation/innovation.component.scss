@@ -1,0 +1,82 @@
+.innovation {
+    background-color: #0f0f0f;
+
+    .innovation-border {
+        border: 2px solid #10ddc4;
+        border-radius: 15px;
+    }
+
+    .heading-text {
+        font-size: 70px;
+        font-weight: bolder;
+        color: #b9e2e3;
+        line-height: 5rem;
+    }
+
+    .heading-text-color {
+        color: #5b6774;
+    }
+
+    .title-text {
+        font-size: 32px;
+        font-weight: 400;
+        color: #10ddc4;
+        line-height: 3rem;
+        letter-spacing: 2px;
+        padding-top: 50px;
+    }
+
+    .icon {
+        margin-right: 10px;
+    }
+
+
+    @media (min-width: 768px) {
+        /* For larger screens (tablet and above) */
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 50px;
+
+
+    }
+
+    @media (max-width: 768px) {
+        //for small screen
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        .heading-text {
+            font-size: 36px;
+            line-height: 3rem;
+        }
+
+        .title-text {
+            font-size: 20px;
+            line-height: 2rem;
+            padding-top: 10px;
+
+        }
+
+        .innovation-border {
+            border: 1px solid #10ddc4;
+            border-radius: 10px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* For larger screens (tablet and above) */
+    .innovation-slider-custom-container {
+        padding: 10px 70px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    //for small screen
+    .innovation-slider-custom-container {
+        display: none;
+    }
+}

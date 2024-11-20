@@ -1,0 +1,149 @@
+.degital-revolution {
+    @media (min-width: 768px) {
+        /* For larger screens (tablet and above) */
+        padding-top: 100px;
+    }
+
+    .main-heading {
+        font-size: 50px;
+        font-weight: bolder;
+        color: #ffffff;
+        line-height: 5rem;
+    }
+
+    .title {
+        font-size: 32px;
+        font-weight: 400;
+        color: #bbbbbb;
+        line-height: 3rem;
+        letter-spacing: 2px;
+    }
+
+    .service-btn {
+        background-color: #ffffff;
+        color: #000000;
+        border: none;
+        border-radius: 20px;
+        padding: 12px 26px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .schedule-btn {
+        text-align: center;
+        align-items: center;
+        margin-top: -5px;
+        background-color: #10ddc4;
+        color: #000000;
+        border: none;
+        border-radius: 20px;
+        padding: 12px 26px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 25px;
+    }
+
+    .gradient-button {
+        background: linear-gradient(145deg, #1e2024, #373839);
+        padding: 10px 10px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    /* Consulting Button */
+    .consulting-btn {
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow:
+            60px 0px 50px -4px rgba(254, 255, 255, 0.5),
+            70px 0px 70px -20px rgba(16, 221, 196, 0.4);
+    }
+
+    .consulting-btn-border {
+        content: '';
+        width: 60%;
+        height: 1px;
+        /* Adjust border thickness */
+        background: linear-gradient(to right, black, green 50%, black);
+        opacity: 0.4;
+        margin: 0px 50px 0px 50px;
+    }
+
+    /* Services Button */
+    .services-btn {
+        margin-right: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow:
+            60px 0px 50px -4px rgba(16, 221, 196, 0.4),
+            70px 0px 70px -20px rgba(209, 218, 209, 0.3);
+    }
+
+    /* Products Button */
+    .products-btn {
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow:
+            60px 0px 50px -4px rgba(210, 232, 12, 0.4),
+            /* Green glow */
+            70px 0px 70px -20px rgba(0, 255, 0, 0.3);
+    }
+
+    /* Icon spacing */
+    .gradient-button .icon {
+        margin-right: 10px;
+    }
+
+    @media (max-width: 768px) {
+
+        //for small screen
+        .main-heading {
+            font-size: 30px;
+            font-weight: bolder;
+            color: #ffffff;
+            line-height: 3rem;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: 400;
+            color: #bbbbbb;
+            line-height: 2rem;
+            letter-spacing: 0px;
+        }
+
+        .service-btn {
+            padding: 10px 10px;
+        }
+
+        .schedule-btn {
+            margin-left: 10px;
+            padding: 10px 10px;
+
+        }
+
+        .consulting-btn {
+            margin-right: 0px;
+        }
+
+        .services-btn {
+            margin-right: 0px;
+            // float: right;
+        }
+
+        .products-btn {
+            margin-right: 0px;
+        }
+
+    }
+
+}

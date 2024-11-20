@@ -1,0 +1,54 @@
+.our-word {
+    .sm-heading-text {
+        font-size: 24px;
+        font-weight: 400;
+        color: #9dafe1;
+        letter-spacing: 2px;
+        padding-top: 50px;
+        margin-bottom: 30px;
+
+    }
+
+    .heading-text {
+        font-size: 50px;
+        font-weight: bold;
+        color: #10ddc4;
+        letter-spacing: 2px;
+    }
+
+    .title-text {
+        font-size: 24px;
+        font-weight: 400;
+        color: #adb0b9;
+        letter-spacing: 2px;
+        padding-top: 10px;
+    }
+
+    .our-word-top-img-container {
+        height: 350px;
+        min-height: 350px;
+    }
+
+    @media (max-width: 768px) {
+
+        //for small screen
+        .our-word-top-img-container {
+            height: 100px;
+            min-height: 100px;
+        }
+
+        .sm-heading-text {
+            font-size: 16px;
+            padding-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        .heading-text {
+            font-size: 25px;
+        }
+
+        .title-text {
+            font-size: 16px;
+        }
+    }
+}

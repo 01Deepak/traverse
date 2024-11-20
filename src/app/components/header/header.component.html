@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-black mb-3 navbar-custom">
+  <div class="container">
+    <!-- Toggle icon on the left -->
+    <button class="navbar-toggler me-auto" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+      &#9776;
+    </button>
+
+    <!-- Image logo as brand on the right -->
+    <a class="navbar-brand ms-auto" [routerLink]="'.'">
+      <img src="../../../assets/images/logo.png" alt="Logo" height="30">
+    </a>
+
+    <!-- Centered navigation links -->
+    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+      <ul class="navbar-nav mx-auto custom-ul">
+        <li class="nav-item active">
+          <a class="nav-link  active-nav-link custom-nav-link" [routerLink]="'.'"
+            (click)="isMenuCollapsed = true">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white custom-nav-link" [routerLink]="'.'"
+            (click)="isMenuCollapsed = true">Solutions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white custom-nav-link" [routerLink]="'.'"
+            (click)="isMenuCollapsed = true">Insights</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white custom-nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">About
+            Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white custom-nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Contact
+            Us</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <!-- "Get in Touch" button -->
+    <button class="btn btn-outline-light d-none d-lg-inline-flex align-items-center ms-3 btn-custom">
+      Get in Touch <span class="ms-2">&#x2794;</span>
+    </button>
+  </div>
+</nav>

@@ -1,0 +1,35 @@
+.counts-component {
+    @media (min-width: 768px) {
+        /* For larger screens (tablet and above) */
+        padding: 20px 100px;
+    }
+
+    h6 {
+        font-weight: bold;
+        font-size: 24px;
+        color: #00e6c3;
+    }
+
+    h5 {
+        font-weight: bold;
+        font-size: 35px;
+        color: #ffffff;
+    }
+
+    .f-link-title {
+        font-size: 50px;
+    }
+
+    @media (max-width: 768px) {
+        //for small screen
+        padding: 5px 15px;
+
+        .f-link-title {
+            font-size: 18px;
+        }
+
+        h5 {
+            font-size: 16px;
+        }
+    }
+}

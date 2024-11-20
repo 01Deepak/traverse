@@ -1,0 +1,77 @@
+.custom-ul {
+  border: 1px solid gray;
+  padding: 0px 20px;
+  border-radius: 25px;
+  background-color: #2E2E30CC;
+  color: white;
+}
+
+.navbar-custom {
+  background-color: black;
+  /* Black background */
+  color: white;
+  /* White text */
+  position: relative;
+}
+
+.navbar-nav .nav-link {
+  margin: 0 10px;
+  /* Add spacing between links */
+  font-weight: bold;
+  /* Make font bold */
+}
+
+@media (max-width: 768px) {
+
+  /* Apply only for mobile and tablet screens */
+  .navbar-custom::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    /* Adjust border thickness */
+    background: linear-gradient(to right, green, black);
+  }
+}
+
+.navbar-toggler {
+  color: white;
+  /* Set icon color to white */
+}
+
+.navbar-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Optional hover effect */
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.active-nav-link {
+  color: #10ddc4;
+}
+
+.btn-custom {
+  background-color: #2E2E30CC;
+  border: 2px solid #323232;
+  border-radius: 10px;
+  padding: 5px 20px;
+
+}
+
+.navbar-brand img {
+  height: 30px;
+  /* Default size for mobile view */
+}
+
+@media (min-width: 768px) {
+
+  /* For larger screens (tablet and above) */
+  .navbar-brand img {
+    height: 50px;
+    /* Larger size for web view */
+  }
+}

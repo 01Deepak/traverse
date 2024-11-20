@@ -1,0 +1,25 @@
+.helping-business {
+    background-color: #0f0f0f;
+
+    .image-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    @media (min-width: 768px) {
+        /* For larger screens (tablet and above) */
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    @media (max-width: 768px) {
+        //for small screen
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        .image-container {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
